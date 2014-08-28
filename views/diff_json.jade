@@ -2,6 +2,10 @@ extend layout
 
 block body
   form(method='post', enctype='multipart/form-data', action='/upload_json_to_diff')
-    input(type='file', name='file1')
-    input(type='file', name='file2')
-    input(type='submit')
+    .form-group
+      label First file
+      input(type='file', name='file1')
+    .form-group
+      label Second file
+      input(type='file', name='file2')
+    button.btn.btn-default(type='submit') 确认
