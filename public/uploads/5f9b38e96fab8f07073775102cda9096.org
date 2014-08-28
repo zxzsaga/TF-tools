@@ -1,0 +1,8 @@
+* MonthCard
+#+begin_example
+getMonthCardRemainingDays(gamerId) { return days }    // 客户端定时查询更新显示
+getMonthCardInfo(gamerId) { return { monthCardInfo: {}, days: 0 } }
+ifTakeDailyReward(gamerId) { return boolean }
+getDailyReward(gamerId) { return { reward: {} } }
+#+end_example
+- checkMonthCardStatus()

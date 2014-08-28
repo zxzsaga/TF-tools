@@ -1,0 +1,7 @@
+extend layout
+
+block body
+  form(method='post', enctype='multipart/form-data', action='/upload_json_to_diff')
+    input(type='file', name='file1')
+    input(type='file', name='file2')
+    input(type='submit')

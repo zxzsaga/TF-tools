@@ -1,0 +1,14 @@
+{
+    "name": "diffJSON",
+    "version": "0.0.1",
+    "description": "diff JSON files or .js files",
+    "main": "diffJSON.js",
+    "dependencies": {
+        "commander": "2.1.0"
+    },
+    "keywords": [
+        "diff",
+        "JSON"
+    ],
+    "author": "xuanzhi.zhang"
+}

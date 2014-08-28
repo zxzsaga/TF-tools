@@ -1,0 +1,214 @@
+{
+  "add": {
+    "armageddon_scene_power": "戰力",
+    "armageddon_scene_power_unit": "萬",
+    "armageddon_scene_win": "戰勝",
+    "armageddon_scene_win_unit": "人",
+    "armageddon_scene_help": "貢獻",
+    "armageddon_scene_help_unit": "分",
+    "armageddon_scene_help_title": "貢獻榜",
+    "armageddon_scene_help_button": "[color=FFFF8000]#{0}%[/color]戰力\n貢獻",
+    "armageddon_scene_tips_win_small_0": "博派指揮官#{0}已戰勝#{1}人！",
+    "armageddon_scene_tips_win_small_1": "狂派指揮官#{0}已戰勝#{1}人！",
+    "armageddon_scene_tips_win_head_0": "博派#{0}號將領#{1}已戰勝#{2}人！",
+    "armageddon_scene_tips_win_head_1": "狂派#{0}號將領#{1}已戰勝#{2}人！",
+    "armageddon_scene_tips_death_head_0": "博派#{0}號將領#{1}陣亡！”",
+    "armageddon_scene_tips_death_head_1": "狂派#{0}號將領#{1}陣亡！”",
+    "armageddon_scene_tips_revive_head_0": "博派#{0}號將領#{1}再次出戰！",
+    "armageddon_scene_tips_revive_head_1": "狂派#{0}號將領#{1}再次出戰！",
+    "armageddon_scene_tips_single_head_0": "博派#{0}號將領#{1}陣亡，狂派#{2}號將領#{3}陣亡，\n雙方單挑戰放棄",
+    "armageddon_scene_tips_single_head_1": "博派#{0}號將領#{1}戰勝狂派#{2}號將領#{3}，\n博派士氣大漲，臨時戰力增加#{4}%",
+    "armageddon_scene_tips_single_head_2": "狂派#{2}號將領#{3}戰勝博派#{0}號將領#{1}，\n狂派士氣大漲，臨時戰力增加#{4}%",
+    "armageddon_scene_tips_single_head_3": "狂派#{2}號將領#{3}陣亡，博派#{0}號將領#{1}不戰而勝，\n博派士氣大漲，臨時戰力增加#{4}%",
+    "armageddon_scene_tips_single_head_4": "博派#{0}號將領#{1}陣亡，狂派#{2}號將領#{3}不戰而勝，\n狂派士氣大漲，臨時戰力增加#{4}%",
+    "armageddon_scene_tips_full_death_0": "博派指揮官陣亡人數#{0}人！",
+    "armageddon_scene_tips_full_death_1": "狂派指揮官陣亡人數#{0}人！",
+    "armageddon_scene_tips_start_2": "第#{0}場單挑\n博派#{1} VS 狂派#{2}",
+    "armageddon_scene_tips_start_3": "第#{0}場 群戰開始",
+    "armageddon_scene_tips_start_4": "第#{0}場群戰階段2",
+    "armageddon_dialog_prize_title": "大決戰獎勵",
+    "armageddon_dialog_last_result_title": "上次戰報",
+    "armageddon_dialog_last_result_value": "大決戰戰報",
+    "armageddon_dialog_last_result_number": "序號",
+    "armageddon_dilaog_last_result_name": "玩家名",
+    "armageddon_dialog_last_result_battle": "戰力",
+    "armageddon_dialog_last_result_help": "貢獻",
+    "armageddon_last_week_not_begin_war_warning": "參戰指揮官數量不足\n上次賽博坦大決戰未正式開戰",
+    "armageddon_this_week_not_begin_war_warning": "參戰指揮官數量不足\n本次賽博坦大決戰未正式開戰",
+    "armageddon_sign_up_title_1": "大決戰報名期",
+    "armageddon_sign_up_title_2": " [color=FF9FE1F6]#{0}[/color]至[color=FF9FE1F6]#{1}[/color]",
+    "armageddon_sign_up_title_3": "報名結束，請等待大決戰開啟",
+    "armageddon_sign_up_no_select_team_warning": "請選擇參戰陣營",
+    "armageddon_sign_up_force_info": "你被推薦至[color=FFFF8000]#{0}[/color]陣營",
+    "armageddon_sign_up_manual_info": "歡迎你加盟[color=FFFF8000]#{0}[/color]陣營",
+    "armageddon_sign_up_onechance_info": "歡迎你加盟[color=FFFF8000]#{0}[/color]陣營，初次選擇陣營後在以後每次大決戰活動中將不能輕易動搖，你將為了[color=FFFF8000]#{1}[/color]的榮耀在賽博坦大決戰中浴血奮戰！選定陣營後在未報名期可使用陣營改變道具轉換自己的陣營屬性。",
+    "armageddon_sign_up_team_type_1": "博派",
+    "armageddon_sign_up_team_type_2": "狂派",
+    "number_choose_max": "最多只能選擇#{0}個"
+  },
+  "update": {
+    "notification_text_worldboss": {
+      "origin": "五分鐘後世界頭目-五面怪將入侵基地！請指揮官立刻到前綫做好戰鬥準備！",
+      "new": "五分鐘後世界BOSS-五面怪將入侵基地！請指揮官立刻到前線做好戰鬥準備！"
+    },
+    "gift_code_title": {
+      "origin": "禮包碼",
+      "new": "禮品碼"
+    },
+    "gift_code_desc": {
+      "origin": "如果禮包碼過期，將無法獲得禮品。",
+      "new": "如果禮品碼過期，將無法獲得禮品。"
+    },
+    "gift_code_already_input_type": {
+      "origin": "[color=FFFFF400]已經領過[/color]該類型禮包碼",
+      "new": "[color=FFFFF400]已經領過[/color]該類型禮品碼"
+    },
+    "gift_code_already_input_group": {
+      "origin": "禮品碼[color=FFFFF400]已經領過[/color]該組禮包碼",
+      "new": "禮品碼[color=FFFFF400]已經領過[/color]該組禮品碼"
+    },
+    "pvp_fight_recharge_energy_fail_text": {
+      "origin": "購買挑戰次數失敗，請確認網絡是否正常，或者重啟遊戲。",
+      "new": "購買挑戰次數失敗，請確認網路是否正常，或者重啟遊戲。"
+    },
+    "hero_list_dialog_hero_dismiss_text": {
+      "origin": "讓[color=FFFFF400]#{0}[/color]退出現役可以獲得[color=FFFFF400]#{1}個黑市幣[/color]是否確認退役？",
+      "new": "讓[color=FFFFF400]#{0}[/color]退出現役可以獲得[color=FFFFF400]#{1}個突破能量塊[/color]是否確認退役？"
+    },
+    "hero_list_hero_dismiss_success_info": {
+      "origin": "[color=FFFFF400]#{0}[/color]成功退役你獲得了[color=FFFFF400]#{1}個黑市幣[/color]",
+      "new": "[color=FFFFF400]#{0}[/color]成功退役你獲得了[color=FFFFF400]#{1}個突破能量塊[/color]"
+    },
+    "hero_dismiss_confirm_text_1": {
+      "origin": "退役後你將獲得[color=FFFFF400]#{0}培養能量塊[/color]和[color=FFFFF400]#{1}黑市幣[/color]，你確認退役嗎？",
+      "new": "退役後你將獲得[color=FFFFF400]#{0}培養能量塊[/color]和[color=FFFFF400]#{1}突破能量塊[/color]，你確認退役嗎？"
+    },
+    "hero_dismiss_confirm_text_2": {
+      "origin": "退役後你將獲得[color=FFFFF400]#{0}黑市幣[/color]，你確認退役嗎？",
+      "new": "退役後你將獲得[color=FFFFF400]#{0}突破能量塊[/color]，你確認退役嗎？"
+    },
+    "hero_spark_fuse_error_duplicated": {
+      "origin": "你已[color=FFFFF400]擁有對應角色[/color]，不能重複擁有，多余的塞星匙可以用於[color=FFFFF400]進化[/color]角色。",
+      "new": "你已[color=FFFFF400]擁有對應角色[/color]，不能重複擁有。多餘的塞星匙可以用於[color=FFFFF400]進化[/color]英雄。"
+    },
+    "hero_spark_fuse_error_duplicated1": {
+      "origin": "你已[color=FFFFF400]擁有對應角色[/color]，不能重複擁有，多余的塞星匙可以用於[color=FFFFF400]進化[/color]角色。",
+      "new": "你已[color=FFFFF400]擁有對應角色[/color]，不能重複擁有。多餘的塞星匙可以用於[color=FFFFF400]進化[/color]英雄。"
+    },
+    "hero_spark_exchange_info_exchange_success": {
+      "origin": "成功將塞星匙分解成黑市幣。",
+      "new": "成功將塞星匙分解成{0}。"
+    },
+    "hero_spark_exchange_dialog_desc": {
+      "origin": "分解可獲得黑市幣",
+      "new": "分解可獲得[color=FFFFF400]#{0}[/color]"
+    },
+    "hero_detail_impart_comfirm_with_evolve_develop": {
+      "origin": "傳授後傳授者將退役，你將獲得[color=FFFFF400]#{0}[/color]#{1}，並返還[color=FFFFF400]#{2}%[/color]的突破消耗，[color=FFFFF400]#{3}%[/color]的培養消耗和[color=FFFFF400]#{4}%[/color]的進化消耗，你確認傳授嗎？",
+      "new": "傳授後傳授者將退役消失，並返還[color=FFFFF400]#{0}培養能量塊[/color]和[color=FFFFF400]#{1}突破能量塊[/color]，你確認傳授嗎？"
+    },
+    "hero_detail_impart_comfirm_with_evolve": {
+      "origin": "傳授後傳授者將退役消失，並返還[color=FFFFF400]#{0}黑市幣[/color]，你確認傳授嗎？",
+      "new": "傳授後傳授者將退役消失，並返還[color=FFFFF400]#{0}突破能量塊[/color]，你確認傳授嗎？"
+    },
+    "name_fail_message": {
+      "origin": "名字中包含[color=FFFFF400]禁用字元[/color]或與其他玩家[color=FFFFF400]重名[/color]，請重新起名。",
+      "new": "名字中包含[color=FFFFF400]禁用字元[/color]或與其他玩家[color=FFFFF400]重名[/color]，請重新取名。"
+    },
+    "mission_trial_fight_fail_4113": {
+      "origin": "戰鬥出錯, 關卡信息錯誤，請退出遊戲重試",
+      "new": "戰鬥出錯, 關卡資訊錯誤，請退出遊戲重試"
+    },
+    "battle_tower_error_4101": {
+      "origin": "戰鬥塔層數錯誤，請重試或重啓游戲",
+      "new": "戰鬥塔層數錯誤，請重試或重啟遊戲"
+    },
+    "battle_tower_error_4102": {
+      "origin": "該層已戰勝，請重試或重啓游戲",
+      "new": "該層已戰勝，請重試或重啟遊戲"
+    },
+    "battle_tower_error_4103": {
+      "origin": "你還沒有到達該層，請重試或重啓游戲",
+      "new": "你還沒有到達該層，請重試或重啟遊戲"
+    },
+    "world_boss_error_4005": {
+      "origin": "冷却時間未結束，請稍後",
+      "new": "冷卻時間未結束，請稍後"
+    },
+    "energy_charge_fail_4121": {
+      "origin": "充電失敗， 充電床未啓動，請重試",
+      "new": "充電失敗， 充電床未啟動，請重試"
+    },
+    "short_cut_login": {
+      "origin": "每日登陸",
+      "new": "每日登錄"
+    },
+    "introduction_mission_tower_3": {
+      "origin": "[color=FF0C2F50]數值策劃知道嗎？[/color]",
+      "new": "[color=FF0C2F50]你朋友知道嗎？[/color]"
+    },
+    "introduction_hero_develop_1": {
+      "origin": "[color=FF0C2F50]這尼瑪[/color]",
+      "new": "[color=FF0C2F50]這什麼啊![/color]"
+    },
+    "introduction_hero_develop_2": {
+      "origin": "[color=FF0C2F50]培養的神馬？[/color]",
+      "new": "[color=FF0C2F50]培養的什麼？[/color]"
+    },
+    "introduction_hero_evolve_3": {
+      "origin": "[color=FF0C2F50]我得意滴笑~[/color]",
+      "new": "[color=FF0C2F50]我蠻得意的~ [/color]"
+    },
+    "rank_add_friends_fail_2715": {
+      "origin": "盟友申請失敗，該玩家的盟友已滿。",
+      "new": "盟友申請失敗，該玩家的盟友申請數量已滿。"
+    },
+    "rank_add_friends_fail_2718": {
+      "origin": "盟友申請失敗，該玩家的盟友已滿。",
+      "new": "盟友申請失敗，該玩家盟友已滿。"
+    },
+    "time_limit_activity_already_finish": {
+      "origin": "活動已結束，獎品剩余#{0}天#{1}小時#{2}分後過期，請盡快領取",
+      "new": "活動已結束,獎品剩餘#{0}天#{1}小時#{2}分後過期，請儘快領取"
+    },
+    "rating_fail": {
+      "origin": "獲取評價信息失敗，請重試， 錯誤號#{0}",
+      "new": "獲取評價資訊失敗，請重試， 錯誤號#{0}"
+    },
+    "fi_get_status_fail": {
+      "origin": "獲取好友邀請信息失敗， 錯誤號#{0}",
+      "new": "獲取好友邀請資訊失敗， 錯誤號#{0}"
+    },
+    "fi_rules": {
+      "origin": "當你的好友在遊戲中填寫邀請碼並達到[color=FFFFF400]LV#{0}[/color]後，你可以獲得如下的豐厚獎勵！（邀請碼只在同服務器起效）",
+      "new": "當你的好友在遊戲中填寫邀請碼並達到[color=FFFFF400]LV#{0}[/color]後，你可以獲得如下的豐厚獎勵！（邀請碼只在同伺服器起效）"
+    },
+    "fi_rewards_claim_fail_4156": {
+      "origin": "領取失敗，輸入時限過期",
+      "new": "領取失敗， 輸入時限過期"
+    },
+    "fi_rewards_claim_fail_4157": {
+      "origin": "領取失敗，不能輸入自己的邀請碼",
+      "new": "領取失敗， 不能輸入自己的邀請碼"
+    },
+    "equip_type_def": {
+      "origin": "防禦模塊",
+      "new": "防禦模組"
+    },
+    "equip_type_spd": {
+      "origin": "動力模塊",
+      "new": "動力模組"
+    },
+    "unknown_error_message": {
+      "origin": "未知錯誤，請重試或重啓游戲",
+      "new": "未知錯誤，請重試或重啟遊戲"
+    }
+  },
+  "remove": {
+    "shop_purchase_not_enough_times": "該商品已經賣完了",
+    "pve_repeat_battle_vip_condition_tip": "到達[color=FFFFF400]VIP#{0}[/color]後開啟劇情戰鬥的連續掃蕩功能",
+    "pvp_opponent_energon_desc1": "分鐘獲得",
+    "pvp_opponent_energon_desc2": "個培養能量塊",
+    "hero_upgrade_resource_best": "在[color=FFFFF400]英雄[/color]難度劇情關卡中可獲得該進化石。"
+  }
+}

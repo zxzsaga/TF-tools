@@ -1,0 +1,17 @@
+{
+  "name": "json_to_xlsx",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "~1.6.5",
+    "express": "~4.8.5",
+    "jade": "~1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuanzhi.zhang",
+  "license": "BSD-2-Clause"
+}
