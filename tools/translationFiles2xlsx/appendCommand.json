@@ -1,0 +1,8 @@
+{
+    "origin": "multi_language_localizations_20140822副本.xlsx",
+    "append": {
+        "shell": {
+            "Chinese_test": "shell_localizations_cn.json"
+        }
+    }
+}

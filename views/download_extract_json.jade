@@ -1,0 +1,9 @@
+extend layout
+
+block body
+  each folderContent, folderName in folderFiles
+    h2 #{ folderName }
+    br
+    each file in folderContent
+      a(href=file.path) #{ file.name }
+      br

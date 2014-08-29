@@ -1,0 +1,243 @@
+[
+  {
+    "keyWord": "basement",
+    "name": "Base",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Team",
+        "description": "Base—Team\r\nYou can build up your own battle team at your base.\r\n\r\nTeam Structure\r\nTeam consists of 3 squads. Every squad consists of 1 front slot and 2 rear slots. All 9 slots will be unlocked with leveling up fo your base.\r\nnEdit Team\r\nYour Autobots and Decepticon characters can be organized into your team simultaneously and each character occupies 1 slot. However, Combiner occupies 3 slots.\r\n\r\nAdjust Team\r\nTap empty slot to add new member or drag members to change slot with other members."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Combiner",
+        "description": "Base—Combiner\r\nSome Tramformers can combine to a new transformer called Combiner, who is very powerful in Transformers world.\r\n\r\nStrength\r\nMembers' strength of Combiner constitutes the Combiner's strength. Since Combiner levels up in terms of the XP got by every members, Combiner grows slower.\r\n\r\nIn Team\r\nWhen in team, Combiner occupies 3 slots of a squad. Only when the members of Combiner are not in team alone, serving in HQ, or in training, can they join your team as Combiner.\r\n\r\nView Details\r\nYou can view every member of Combiner you got through Base->Combiner"
+      },
+      {
+        "keyWord": "help3",
+        "name": "Character",
+        "description": "Base—Character\r\nCharacters can join your team to battle or enter HQ, etc. Characters have 5 rarities in terms of their abilities.\r\n\r\nCulture\r\nYou can culture characters by consuming Culture Energon.\r\n\r\nPower up\r\nYou can enhance characters significantly by consuming required Transmetal, if characters reached the requirement of Rank-up.\r\n\r\nImpart\r\nYou can use characters you don't want to impart his XP to other Characters. Keep in mind that after imparting, characters served as materials will be dismissed and the Energon and Transmetal consumed will be returned to some partially."
+      },
+      {
+        "keyWord": "help4",
+        "name": "HQ",
+        "description": "Base—HQ\r\nCharacters who are not in battle team can serve in HQ in every section in the base. In terms of their abilities, they can provide bonus to their production accordingly. Characters in HQ can also get XP from other characters' battle."
+      },
+      {
+        "keyWord": "help5",
+        "name": "Tech",
+        "description": "Bas—Tech\r\nDeveloping Tech of Base will increase characters abilities. The upper limit of Tech level unlocks in terms of increasing of Base level."
+      },
+      {
+        "keyWord": "help6",
+        "name": "Resource",
+        "description": "Base—Resource\r\nResources such as Space Coin can be produced as time passes. By claiming the resources to start next production."
+      },
+      {
+        "keyWord": "help7",
+        "name": "Training",
+        "description": "Base—Training\r\nCharacters get XP by training. Nevertheless, Combiner and characters in team or serve in HQ cannot do Training."
+      },
+      {
+        "keyWord": "help8",
+        "name": "Gear",
+        "description": "Base—Gear\r\nEquip gears to increase characters abilities.\r\n\r\nType\r\nThere are 3 types of gears. Weapon increases Attack; Armor increases Defence; and Power increases Speed. Each gear has 5 rarities in terms of their strength.\r\n\r\nUpgrade\r\nYou can upgrade your gears by using Space Coin to increase gears level and strength. Level of gears is limited by Base level."
+      },
+      {
+        "keyWord": "help9",
+        "name": "Skill",
+        "description": "Base—Skill\r\nCharacters can equip skill to power up their strength, use skills in battle, and provide bonus in the production in base.\r\n\r\nType\r\nIn terms of skills function, there are 3 types, which are passive skills increasing characters' abilities; battle skills used in battle; and production skills providing bonus in the production in your base. Each character has a gift skill and can equip 2 other skills. Skills also have 5 rarities according to their strength.\r\n\r\nUpgrade\r\nYou can upgrade skills by consuming other skills. Skills become more powerful by upgrading. Skill level is limited by Base level."
+      },
+      {
+        "keyWord": "help10",
+        "name": "Chip",
+        "description": "Base—Chip\r\nCharacters can increases their 8 abilities by equipping chips. \r\n\r\nChip Slot\r\nChip slot will be unlocked with the increasing of characters level. Characters can equip 8 chips at most.\r\n\r\nFuse\r\nChips of same kind can be fused to higher rank of this kind."
+      },
+      {
+        "keyWord": "help11",
+        "name": "Cyberkey",
+        "description": "Base—Cyberkey\r\nCyberkey is the soul of Tranformers, which can be use to create new characters or exchanged to items to enhance Transformers.\r\n\r\nRequired numbers of Fuse\r\nCyberkeys of the same kind can be fused to new characters.\r\n\r\nExchange\r\nCyberkeys can be exchanged for Transmetal of various rarities which can be used to enhance characters."
+      },
+      {
+        "keyWord": "help12",
+        "name": "Item",
+        "description": "Base—Item\r\nItems and packs are stored here. You can view item details before using them."
+      },
+      {
+        "keyWord": "help13",
+        "name": "Rarity up",
+        "description": "Base—Rarity up\r\n Characters can be scanned to a higher rarity。"
+      }
+    ]
+  },
+  {
+    "keyWord": "fight",
+    "name": "Battle",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Story",
+        "description": "Battle—Story\r\nYou can develop your base, lead your team to triumph by playing Story Mode of Transformers G1\r\n\r\nDifficulties\r\nAs one chapter of normal mode is cleared, hard mode will be unlocked. As hard mode is cleared, elite mode will be unlocked."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Arena",
+        "description": "Battle—>Arena\r\nYou can challenge other plays at Arena and get high ranking by defeat them to get much Culture Energon as rewards according to your ranking."
+      },
+      {
+        "keyWord": "help3",
+        "name": "Fragment Scramble",
+        "description": "Battle—Fragment\r\nChallenge other players whose strength are at your level. Defeat them to get skill fragment. Scramble times are limited every day. \r\n\r\nFuse\r\nRequired number of fragments can be fused to get new skills."
+      },
+      {
+        "keyWord": "help4",
+        "name": "Combiner Raid",
+        "description": "Battle—Combiner Raid\r\n Stages of Combiner Raid will open according to the Commander's level. Attack the Combiners there to get their cyber keys."
+      },
+      {
+        "keyWord": "help5",
+        "name": "Trial",
+        "description": "Battle—Trial\r\nYou have limited chances to challenge every day. Challenge step by step to win the precious evolve cubes."
+      },
+      {
+        "keyWord": "help6",
+        "name": "World Boss",
+        "description": "Battle—World Boss\r\nCommanders from all over the world get together, challenging the huge regular World Boss, Quintesson Judge every day, and win abundant rewards according to your contribution."
+      },
+      {
+        "keyWord": "help7",
+        "name": "Tower",
+        "description": "Battle—Tower\r\nChallenge from the first floor to as high as you can every day. You can sweep the floors you have succeeded to challenge. You will get plenty of rewards when you win in this tower.\r\n\r\nTower Update\r\nTower updates every day. You can challenge repeatedly."
+      }
+    ]
+  },
+  {
+    "keyWord": "activities",
+    "name": "Event",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Daily Login",
+        "description": "Event—Daily Login\r\nYou can get daily bonus by login every day. Total login days will be counted and reset every month. The more you login, the more rare rewards you can get."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Pack Code",
+        "description": "Event—Pack Code\r\n You can input pack code of various media and events to get rewards"
+      },
+      {
+        "keyWord": "help3",
+        "name": "Novice 7 Days",
+        "description": "Event—Novice 7 Days\r\nThe newcomers can claim plenty of rewards according to the login date from the first day after signing up to the seventh day."
+      },
+      {
+        "keyWord": "help4",
+        "name": "Recharging Chamber",
+        "description": "Event—Recharging Chamber\r\nRecharging Chamber will be open twice a day regularly. You can recharge to regain your action points."
+      },
+      {
+        "keyWord": "help5",
+        "name": "Limit Event",
+        "description": "Event—Limit Event\r\nThere will be some time-limited events in this game. Don't forget to take part in them."
+      },
+      {
+        "keyWord": "help6",
+        "name": "Month Card",
+        "description": "Event—Month Card\r\nIf you buy it, you will get a good value pack and a privilege to get the Cyberticket for the next 30 days after daily login."
+      }
+    ]
+  },
+  {
+    "keyWord": "social",
+    "name": "Social",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Ally",
+        "description": "Social—Ally\r\nYou can be in alliance with other plays in Tranformers world."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Union",
+        "description": "Socio—Union\r\nYou can join the Base Union with other plays."
+      },
+      {
+        "keyWord": "help3",
+        "name": "Message",
+        "description": "Social—Message\r\nThree kinds of message will deliver into your message box: System, Battle Report, Ally, Comment."
+      },
+      {
+        "keyWord": "help4",
+        "name": "Chat",
+        "description": "Social—Chat\r\nYou can use  loudspeakers to send message at Chat window to all plays in your server. Every time you send a message, it cost you one loudspeaker."
+      },
+      {
+        "keyWord": "help5",
+        "name": "Leaderboard",
+        "description": "Social—Leaderboard\r\nAll users will be ranked by their levels and powers. Those who have reached Lv10 can be ranked in the level board. Those whose powers are over 9000 can be ranked in the power board."
+      },
+      {
+        "keyWord": "help6",
+        "name": "Invitation",
+        "description": "Social—Invitation\r\nYou can see your inviting code or input the inviting code from your friend in this page. If you input your friend's inviting code, you will get some rewards!"
+      }
+    ]
+  },
+  {
+    "keyWord": "shop",
+    "name": "Shop",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Space Bridge",
+        "description": "Shop—Space Bridge\r\nYou can get new characters by activating Space Bridge. There are three kinds of Space Bridge from which you can get different characters.\r\n\r\nFree Activate\r\nYou can activate Space Bridge freely by waiting for the countdown timer reaching zero."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Item Shop",
+        "description": "Shop—Item Shop\r\nYou can purchase various items and packs at Item Shop by Space Coupon."
+      },
+      {
+        "keyWord": "help3",
+        "name": "Charge",
+        "description": "Shop—Charge\r\nSpace Coupon is a currency in the game, by which you can purchase at shop or other services."
+      },
+      {
+        "keyWord": "help4",
+        "name": "VIP",
+        "description": "Shop—VIP\r\nVIP levels up with the increasing of the amount you charged.\r\n\r\nVIP Privilege\r\nVIP at every level contains some privileges and rewards."
+      },
+      {
+        "keyWord": "help5",
+        "name": "Black Market",
+        "description": "Mall—Black Market\r\nYou can exchange your black market coins for different kinds of supplies here. The goods here will be updated at intervals."
+      }
+    ]
+  },
+  {
+    "keyWord": "system",
+    "name": "Others",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Setting",
+        "description": "Others—Setting\r\nYou can adjust music and sound or other settings in Setting."
+      },
+      {
+        "keyWord": "help2",
+        "name": "Help",
+        "description": "Others—Help\r\nYou can find your answers here when you run into problems"
+      },
+      {
+        "keyWord": "help3",
+        "name": "Collection",
+        "description": "Others—Collection\r\nCharacters once you obtained can be viewed in Collection at any time. You can view images of characters robot mode and alt mode."
+      },
+      {
+        "keyWord": "help4",
+        "name": "Notification",
+        "description": "Others—Notification\r\nNotifications of significant events or campaigns are shown here."
+      }
+    ]
+  }
+]
