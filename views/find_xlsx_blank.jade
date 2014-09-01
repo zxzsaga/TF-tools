@@ -1,0 +1,22 @@
+extend layout
+
+block body
+  form.form-horizontal(method='post', enctype='multipart/form-data', action='/upload_xlsx_to_find_blank')
+    .form-group
+      label.col-lg-2.control-label XLSX file
+      .col-lg-4
+        input(type='file', name='xlsx')
+    .form-group
+      label.col-lg-2.control-label Sheet
+      .col-lg-4
+        input.form-control(type='text', name='sheet')
+    .form-group
+      label.col-lg-2.control-label 源语言
+      .col-lg-4
+        input.form-control(type='text', name='origin', placeholder='cn, tw or en')
+    .form-group
+      label.col-lg-2.control-label 目标语言
+      .col-lg-4
+        input.form-control(type='text', name='target', placeholder='cn, tw or en')
+    .form-group
+      button.btn.btn-default.col-lg-offset-2(type='submit') 确认

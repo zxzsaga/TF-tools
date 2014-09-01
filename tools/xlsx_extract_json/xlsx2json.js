@@ -140,7 +140,7 @@ function xlsx2json() {
             }
             // writeContent = writeContent.replace(/\\r\\n/g, '\\n');            
             writeContent = writeContent.replace(/\\\\n/g, '\\n');
-            fs.writeFile(destination_folder + destination, writeContent);
+            fs.writeFileSync(destination_folder + destination, writeContent);
         }
     });
 }

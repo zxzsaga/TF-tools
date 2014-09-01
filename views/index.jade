@@ -1,9 +1,12 @@
 extend layout
 
 block body
-  h1 你好，那谁
   img.img-responsive.img-thumbnail(src='img/doge.png', alt='doge')
   br
-  a.btn.btn-default(href='/xlsx_extract_json') xlsx 提取 json
+  a.btn.btn-default(href='/xlsx_extract_json') 从翻译 xlsx 文件中提取 json (华辰)
   br
-  a.btn.btn-default(href='/diff_json') 对比 json
+  a.btn.btn-default(href='/diff_json') 对比翻译 json 文件的差异 (一惠)
+  br
+  a.btn.btn-default(href='/find_xlsx_blank') 找出翻译 xlsx 文件的空白项 (华辰)
+  br
+  a.btn.btn-default(href='/xlsx_patch_json') 将翻译后的 json 写入 xlsx (华辰)

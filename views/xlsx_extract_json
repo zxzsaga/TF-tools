@@ -1,6 +1,0 @@
-extend layout
-
-block body
-  form(method='post', enctype='multipart/form-data', action='/upload_xlsx_for_extracting_json')
-    input(type='file', name='file')
-    input(type='submit')

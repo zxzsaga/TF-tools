@@ -7,7 +7,7 @@ program
     .option('-s, --special', 'special handling for cn_helps.json')
     .parse(process.argv);
 
-(function diffJSON() {
+function diffJSON() {
     if (program.args.length < 3) {
         console.log('缺少参数');
         return;
@@ -179,4 +179,5 @@ program
     }
     var outputFileName = program.args[2];
     fs.writeFileSync(outputFileName, JSON.stringify(result, null, '  '));
-})();
+};
+diffJSON();
