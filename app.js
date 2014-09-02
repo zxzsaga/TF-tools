@@ -55,12 +55,20 @@ app.post('/upload_xlsx_for_extracting_json', function(req, res) {
         var filesObj = {};
         var folders = fs.readdirSync(destinationPath);
         folders.forEach(function(folderName) {
-            filesObj[folderName] = fs.readdirSync(destinationPath + folderName).map(function(filename) {
-                return {
-                    name: filename,
-                    path: '/downloads/xlsx_extract_json/' + folderName + '/' + filename
-                };
-            });
+            var folderStats = fs.statSync(destinationPath + folderName);
+            if (folderStats.isFile()) {
+                filesObj[folderName] = [{
+                    name: folderName,
+                    path: '/downloads/xlsx_extract_json/' + folderName
+                }];
+            } else if (folderStats.isDirectory()) {
+                filesObj[folderName] = fs.readdirSync(destinationPath + folderName).map(function(filename) {
+                    return {
+                        name: filename,
+                        path: '/downloads/xlsx_extract_json/' + folderName + '/' + filename
+                    };
+                });
+            }
         });
         res.render('download_extract_json', { folderFiles: filesObj });
     });

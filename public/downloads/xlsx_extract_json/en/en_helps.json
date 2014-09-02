@@ -6,7 +6,7 @@
       {
         "keyWord": "help1",
         "name": "Team",
-        "description": "Base—Team\r\nYou can build up your own battle team at your base.\r\n\r\nTeam Structure\r\nTeam consists of 3 squads. Every squad consists of 1 front slot and 2 rear slots. All 9 slots will be unlocked with leveling up fo your base.\r\nnEdit Team\r\nYour Autobots and Decepticon characters can be organized into your team simultaneously and each character occupies 1 slot. However, Combiner occupies 3 slots.\r\n\r\nAdjust Team\r\nTap empty slot to add new member or drag members to change slot with other members."
+        "description": "Base—Team\r\nYou can build up your own battle team at your base.\r\n\r\nTeam Structure\r\nTeam consists of 3 squads. Every squad consists of 1 front slot and 2 rear slots. All 9 slots will be unlocked with leveling up fo your base.\r\n\r\nEdit Team\r\nYour Autobots and Decepticon characters can be organized into your team simultaneously and each character occupies 1 slot. However, Combiner occupies 3 slots.\r\n\r\nAdjust Team\r\nTap empty slot to add new member or drag members to change slot with other members."
       },
       {
         "keyWord": "help2",
@@ -16,7 +16,7 @@
       {
         "keyWord": "help3",
         "name": "Character",
-        "description": "Base—Character\r\nCharacters can join your team to battle or enter HQ, etc. Characters have 5 rarities in terms of their abilities.\r\n\r\nCulture\r\nYou can culture characters by consuming Culture Energon.\r\n\r\nPower up\r\nYou can enhance characters significantly by consuming required Transmetal, if characters reached the requirement of Rank-up.\r\n\r\nImpart\r\nYou can use characters you don't want to impart his XP to other Characters. Keep in mind that after imparting, characters served as materials will be dismissed and the Energon and Transmetal consumed will be returned to some partially."
+        "description": "Base—Character\r\nCharacters can join your team to battle or enter HQ, etc. Characters have 5 classes in terms of their abilities.\r\n\r\nDevelop\r\nYou can Develop characters by consuming DEV Cube.\r\n\r\nPromote\r\nYou can promote characters significantly by consuming Starmetal, if characters reached the require level.\r\n\r\nDescendant\r\nYou can use characters you don't want to descendant his XP to other Characters. Keep in mind that after descendanting, characters served as materials will be dismissed and the DEV Cube and Starmetal consumed will be returned to some partially."
       },
       {
         "keyWord": "help4",
@@ -26,7 +26,7 @@
       {
         "keyWord": "help5",
         "name": "Tech",
-        "description": "Bas—Tech\r\nDeveloping Tech of Base will increase characters abilities. The upper limit of Tech level unlocks in terms of increasing of Base level."
+        "description": "Bas—Tech\r\nDeveloping Tech of Base will increase characters status. The upper limit of Tech level unlocks in terms of increasing of Base level."
       },
       {
         "keyWord": "help6",
@@ -41,22 +41,22 @@
       {
         "keyWord": "help8",
         "name": "Gear",
-        "description": "Base—Gear\r\nEquip gears to increase characters abilities.\r\n\r\nType\r\nThere are 3 types of gears. Weapon increases Attack; Armor increases Defence; and Power increases Speed. Each gear has 5 rarities in terms of their strength.\r\n\r\nUpgrade\r\nYou can upgrade your gears by using Space Coin to increase gears level and strength. Level of gears is limited by Base level."
+        "description": "Base—Equipment\r\nEquip gears to increase characters status.\r\n\r\nType\r\nThere are 3 types of equipments. Weapon increases Attack; Defence increases Defence; and Speed increases Speed. Each equipment has 5 classes in terms of their strength.\r\n\r\nEnhance\r\nYou can enhance your equipments by using Credit to increase equipments' level and strength. Level of equipments is limited by Base level."
       },
       {
         "keyWord": "help9",
         "name": "Skill",
-        "description": "Base—Skill\r\nCharacters can equip skill to power up their strength, use skills in battle, and provide bonus in the production in base.\r\n\r\nType\r\nIn terms of skills function, there are 3 types, which are passive skills increasing characters' abilities; battle skills used in battle; and production skills providing bonus in the production in your base. Each character has a gift skill and can equip 2 other skills. Skills also have 5 rarities according to their strength.\r\n\r\nUpgrade\r\nYou can upgrade skills by consuming other skills. Skills become more powerful by upgrading. Skill level is limited by Base level."
+        "description": "Base—Ability\r\nCharacters can equip ability to power up their strength, use abilities in battle, and provide bonus in the production in base.\r\n\r\nType\r\nIn terms of abilities function, there are 3 types, which are passive abilities increasing characters' status; battle abilities used in battle; and production abilities providing bonus in the production in your base. Each character has a talent abiliy and can equip 2 other abilities. Abilitiess also have 5 classes according to their strength.\r\n\r\nLevel Up\r\nYou can level up abilities by consuming other abilities. Abilities become more powerful by level up. Ability level is limited by Base level."
       },
       {
         "keyWord": "help10",
         "name": "Chip",
-        "description": "Base—Chip\r\nCharacters can increases their 8 abilities by equipping chips. \r\n\r\nChip Slot\r\nChip slot will be unlocked with the increasing of characters level. Characters can equip 8 chips at most.\r\n\r\nFuse\r\nChips of same kind can be fused to higher rank of this kind."
+        "description": "Base—Chip\r\nCharacters can increases their 8 status by equipping chips. \r\n\r\nChip Slot\r\nChip slot will be unlocked with the increasing of characters level. Characters can equip 8 chips at most.\r\n\r\nMerge\r\nChips of same kind can be merged to higher rank of this kind."
       },
       {
         "keyWord": "help11",
         "name": "Cyberkey",
-        "description": "Base—Cyberkey\r\nCyberkey is the soul of Tranformers, which can be use to create new characters or exchanged to items to enhance Transformers.\r\n\r\nRequired numbers of Fuse\r\nCyberkeys of the same kind can be fused to new characters.\r\n\r\nExchange\r\nCyberkeys can be exchanged for Transmetal of various rarities which can be used to enhance characters."
+        "description": "Base—Cyberkey\r\nCyberkey is the soul of Tranformers, which can be use to create new characters or exchanged to items to enhance Transformers.\r\n\r\nRequired numbers of Fuse\r\nCyberkeys of the same kind can be merged to new characters.\r\n\r\nExchange\r\nCyberkeys can be exchanged for Dark Cyberkey which can be used to purchase items in black market. You can get more Dark Cyberkeys with higher class Cyberkeys."
       },
       {
         "keyWord": "help12",

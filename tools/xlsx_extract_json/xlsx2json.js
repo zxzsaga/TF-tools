@@ -2,7 +2,8 @@ var fs = require('fs');
 var path = require('path');
 var program = require('commander');
 var XLSX = require('xlsx');
-var rmdir = require('rimraf'); 
+var rmdir = require('rimraf');
+var AdmZip = require('adm-zip');
 
 program
     .version('0.0.1')
@@ -143,5 +144,9 @@ function xlsx2json() {
             fs.writeFileSync(destination_folder + destination, writeContent);
         }
     });
+
+    var zip = new AdmZip();
+    zip.addLocalFolder(destination_folder);
+    zip.writeZip(destination_folder + 'result.zip');
 }
 xlsx2json();

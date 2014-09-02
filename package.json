@@ -8,7 +8,9 @@
     "express": "~4.8.5",
     "jade": "~1.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-zip": "~2.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
