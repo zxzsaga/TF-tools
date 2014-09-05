@@ -178,6 +178,7 @@ function diffJSON() {
         }
     }
     var outputFileName = program.args[2];
+    console.log('~~~~~~~~~~~~');
     fs.writeFileSync(outputFileName, JSON.stringify(result, null, '  '));
 };
 diffJSON();
