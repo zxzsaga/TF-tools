@@ -41,7 +41,7 @@ function xlsxPatchJSON() {
     try {
         jsonContent = JSON.parse(jsonContent);
     } catch (err) {
-        console.log('JSON parse error');
+        console.error('JSON parse error');
         return;
     }
 
