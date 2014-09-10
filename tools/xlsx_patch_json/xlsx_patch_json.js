@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var program = require('commander');
 var XLSX = require('xlsx');
 
@@ -38,19 +39,36 @@ function xlsxPatchJSON() {
     var sheetObj = XLSX.utils.sheet_to_row_object_array(worksheet);
 
     var jsonContent = fs.readFileSync(jsonFilename, 'utf8');
-    try {
-        jsonContent = JSON.parse(jsonContent);
-    } catch (err) {
-        console.error('JSON parse error');
-        return;
+    var jsonExt = path.extname(jsonFilename);
+    if (jsonExt === '.json') {
+        try {
+            jsonContent = JSON.parse(jsonContent);
+        } catch (err) {
+            console.error('JSON parse error');
+            return;
+        }
+    } else if (jsonExt === '.js') {
+        eval(jsonContent.toString());
+        jsonContent = cn_localization;
     }
 
+    var updatedKeys = [];
     var targetLanguageValue = languageTable[targetLanguage];
     sheetObj.forEach(function(element) {
         if (jsonContent[element.Key] !== undefined) {
             element[targetLanguageValue] = jsonContent[element.Key];
+            updatedKeys.push(element.Key);
         }
     });
+    for (var i in jsonContent) {
+        if (updatedKeys.indexOf(i) === -1) {
+            var newElement = {
+                Key: i
+            };
+            newElement[targetLanguageValue] = jsonContent[i];
+            sheetObj.push(newElement);
+        }
+    }
 
     var sheetArr = [];
     var headRow = [];
