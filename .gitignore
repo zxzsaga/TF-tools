@@ -1,2 +1,2 @@
-public/uploads
-public/downloads
+public/uploads/*
+public/downloads/*
