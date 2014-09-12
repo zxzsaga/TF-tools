@@ -72,6 +72,12 @@ function xlsx2json() {
                 writeContent += ';';
 
                 destination = dirName + '/' + dirName + '.js';
+            } else if (sheetName === 'server') {
+                writeContent = 'var cn_localization = ';
+                writeContent +=  JSON.stringify(thisSheetObj[lang], null, '  ');
+                writeContent += ';';
+
+                destination = dirName + '/' + 'server_' + dirName + '.js';
             } else if (sheetName === 'helps') {
                 var writeArr = [];
                 for (var key in thisSheetObj[lang]) {
