@@ -51,7 +51,6 @@ function xlsxPatchJSON() {
         eval(jsonContent.toString());
         jsonContent = cn_localization;
     }
-
     var updatedKeys = [];
     var targetLanguageValue = languageTable[targetLanguage];
     sheetObj.forEach(function(element) {
@@ -84,6 +83,9 @@ function xlsxPatchJSON() {
             arr.push(element[key]);
         });
         sheetArr.push(arr);
+    });
+    sheetArr.forEach(function(element) {
+        element[1] = element[1].replace(/\r\n/g, '\r');
     });
     workbook.Sheets[sheetName] = sheet_from_array_of_arrays(sheetArr);
     XLSX.writeFile(workbook, destination);
