@@ -153,7 +153,9 @@ function xlsx2json() {
     });
 
     var zip = new AdmZip();
-    zip.addLocalFolder(destination_folder);
+    zip.addLocalFolder(destination_folder + 'cn');
+    zip.addLocalFolder(destination_folder + 'en');
+    zip.addLocalFolder(destination_folder + 'tw');
     zip.writeZip(destination_folder + 'result.zip');
 }
 xlsx2json();
