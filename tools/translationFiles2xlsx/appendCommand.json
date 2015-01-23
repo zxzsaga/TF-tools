@@ -1,8 +1,8 @@
 {
-    "origin": "multi_language_localizations_20140822副本.xlsx",
+    "origin": "workbook2.xlsx",
     "append": {
-        "shell": {
-            "Chinese_test": "shell_localizations_cn.json"
+        "helps": {
+            "Chinese（Simple）": "cn_helps.json"
         }
     }
 }

@@ -45,8 +45,8 @@ function json2xlsx() {
                     }
                     sheetObj[key][columnName] = cn_localization[key];
                 }
-            } else if (fileExtention === '.json' && JSONFileName.indexOf('helps' === -1)) {
-                // *helps.json
+            } else if (fileExtention === '.json' && JSONFileName.indexOf('helps') === -1) {
+                // .json files except *helps.json
                 var JSONContent = fs.readFileSync(JSONFileName, 'utf8');
                 try {
                     JSONContent = JSON.parse(JSONContent);
@@ -61,7 +61,7 @@ function json2xlsx() {
                     sheetObj[key][columnName] = JSONContent[key];
                 }
             } else if (fileExtention === '.json') {
-                // other .json files
+                // *helps.json
                 var JSONContent = fs.readFileSync(JSONFileName, 'utf8');
                 try {
                     JSONContent = JSON.parse(JSONContent);

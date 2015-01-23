@@ -1,0 +1,227 @@
+[
+  {
+    "keyWord": "basement",
+    "name": "Base ",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Team",
+        "description": "Base - Team \r\nYou can manage and build your own personal battle team in your base. \r\n\r\nTeam Structure \r\nYour battle team consists of three squads. Every squad has one front slot, and two rear slots. Players start with five available slots. \r\n\r\nAdditional slots are unlocked as you level. \r\n\r\nIndividual character cards take up one slot. However, Combiner's occupy three slots.\r\n\r\nAdjust Team \r\nYou can add new members to your team by tapping an empty slot. You can also change your character's squad location by dragging a character card to the new desired slot. "
+      },
+      {
+        "keyWord": "help2",
+        "name": "Combiner ",
+        "description": "\r\n\r\nBase - Combiner \r\nCertain Transformers can combine into more powerful Transformers called Combiners. \r\n\r\nPower\r\nThe Combiner's power is dependent on the power of the Transformer's used to make him. \r\n\r\nCombiners level up according to the XP gained by its constituent memebers.\r\n\r\nDeploy \r\nA combiner takes up three team slots. Transformers in the HQ, or those that are already in your team, cannot be used as part of a Combiner. \r\n\r\nView Details \r\nYou can view your Combiners by going to the Base and clicking on Combiner. "
+      },
+      {
+        "keyWord": "help3",
+        "name": "Character ",
+        "description": "Base- Character \r\nThe Character section displays all your available characters. Including those in your battle team, and those in your base. \r\n\r\nDevelop \r\nYou can increase character stats by clicking on Details, and then clicking on Develop, which is located on the top of the character page. Developing a character will require Dev Cubes, and Cybertickets for more advanced development. \r\n\r\nPromote\r\nYou can dramatically increase character stats by promoting a character. The Promote button is located on the same tab as the Develop button. \r\n\r\nPromoting a character uses Starmetal, which can be acquired from boxes, and from using Trial feature of the game. \r\n\r\nDescendant \r\nYou can use the Descendant feature to transfer XP from a higher class character to a lower class character. Using this feature will destroy the character you wish to transfer XP from. However, Starmetal and Dev Cube will be partially returned. "
+      },
+      {
+        "keyWord": "help4",
+        "name": "HQ",
+        "description": "Base - HQ \r\nCharacters who are not in your battle team can be placed in the HQ. In the HQ there are four different occupations that can be staffed by one character. These occupations provide different passive benefits to your other characters. In addition, the characters you choose to be in your HQ will receive 60% of the battle XP you receive. "
+      },
+      {
+        "keyWord": "help5",
+        "name": "Tech ",
+        "description": "Base - Tech \r\nLeveling up stats in Tech will add a passive bonus to all other characters. "
+      },
+      {
+        "keyWord": "help6",
+        "name": "Production ",
+        "description": "Base - Production \r\nDev. Cubes are produced after a certain period of time. Claiming Dev. Cubes will start the next production cycle. "
+      },
+      {
+        "keyWord": "help7",
+        "name": "Training ",
+        "description": "Base - Training \r\nYou can give characters additional XP by training them. "
+      },
+      {
+        "keyWord": "help8",
+        "name": "Equipment ",
+        "description": "\r\nBase - Equipment \r\nEquipment is used to increase character's stats. \r\n\r\nType\r\nThere are three different types of equipment: Weapon (increases attack), Defense (Increases Defense), and Speed (increases speed). \r\n\r\nEach weapon has five classes: D, C, B, A, and S. S is the most powerful.\r\n\r\nEnhance\r\nYou can enhance your equipment by using credits. Enhancing your equipment increases both its level and its strength.  "
+      },
+      {
+        "keyWord": "help9",
+        "name": "Ability ",
+        "description": "Base - Ability \r\nCharacters can equip abilities to increase their power, improve performance in combat, and provide bonuses to other functions in the base. \r\n\r\nType\r\nThere are two types of abilities, battle abilities, and production abilities. Battle abilities assist character's performance in combat, and production abilities provide bonuses for production in your base. \r\n\r\nEach character can equip two abilities. \r\n\r\nAbilities have five class levels: D, C, B, A, and S. \r\n\r\nLevel Up\r\nYou can level up abilities by consuming other abilities you acquire. "
+      },
+      {
+        "keyWord": "help10",
+        "name": "Chip",
+        "description": "Base - Chip \r\nCharacters can increase their stats by equipping Chips. \r\n\r\nChip Slot\r\nChip Slots will be unlocked as characters level. At most, characters can equip eight chips. \r\n\r\nMerge\r\nChips of the same type can be merged in order to increase the Chip's rank. "
+      },
+      {
+        "keyWord": "help11",
+        "name": "Cyberkey ",
+        "description": "Base - Cyberkey \r\nCyberkeys can be used to create new characters. \r\n\r\nRequired number of keys to merge \r\nCyberkeys of the same kind can be merged to create new characters. Characters have different numbers of required cyberkeys. \r\n\r\nExchange \r\nCyberkeys can also be exchanged for Dark Cyberkeys, which can be used to purchase items on the black market. Higher class Cyberkeys produce more Dark Cyberkeys when exchanged. "
+      },
+      {
+        "keyWord": "help12",
+        "name": "Item ",
+        "description": "Base - Item Inventory\r\nVarious acquired Items are stored in the Item Inventory. You can view the details of these items here. \r\n"
+      },
+      {
+        "keyWord": "help13",
+        "name": "Evolve",
+        "description": "Base - Evolve \r\nCharacter's classes can be raised by using Evolve."
+      },
+      {
+        "keyWord": "help14",
+        "name": "Lab",
+        "description": "Base - Lab\r\nYou can increase the class of your equipment, and merge materials in the Base's Lab."
+      }
+    ]
+  },
+  {
+    "keyWord": "fight",
+    "name": "Battle",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Campaign ",
+        "description": "Battle - Story \r\nThe Story mode is based on the Transformer's Generation One animated series. \r\n\r\nDifficulties \r\nThere are three different difficulties for campaign: Normal, Elite, and Hero. Players will first have to complete Normal mode on one chapter before they can unlock Elite mode for that chapter; similarly, a player must beat a chapter on Elite mode before they unlock Hero mode for that chapter. "
+      },
+      {
+        "keyWord": "help2",
+        "name": "Arena",
+        "description": "Battle - Arena \r\nYou can challenge other players in the Arena and reach higher ranks. Winning in Arena grants Development Energon, and other rewards depending on your rank. "
+      },
+      {
+        "keyWord": "help3",
+        "name": "Ability Compete",
+        "description": "Battle - Ability Compete\r\nChallenge other players of the same level for ability fragments. Number of times you can compete are limited to daily. \r\n\r\nFuse\r\nAfter you get the required number of ability fragments, you can fuse them together to create a powerful ability. "
+      },
+      {
+        "keyWord": "help4",
+        "name": "Combiner Raid ",
+        "description": "Battle - Combiner Raid \r\nDifferent stages of Combiner Raid can are unlocked as you Commander's level increases. \r\n\r\nAttack the Combiners to get their Cyberkeys. "
+      },
+      {
+        "keyWord": "help5",
+        "name": "Trial ",
+        "description": "Battle - Trial \r\nUse Trial mode to acquire Starmetal. Trial has five separate stages, and players can challenge them a certain number of times each day. "
+      },
+      {
+        "keyWord": "help6",
+        "name": "World Boss",
+        "description": "Battle - World Boss\r\nCommanders from all over the world come together and challenge Quintesson Judge, the world boss. Defeating Quintesson gives players rewards based on their performance in the battle. Quintesson will be available at certain times every day. "
+      },
+      {
+        "keyWord": "help7",
+        "name": "Tower ",
+        "description": "Battle - Tower \r\nChallenge increasingly difficult levels of the Tower to acquire Tech Energon and credits. Get as high as you can everyday. You can sweep the Tower the next day, which will automatically fight each floor you beat the previous day, and give you the associated rewards. \r\n\r\nTower Refresh \r\nTower refreshes every day. You can also use Cybertickets to refresh the tower. "
+      }
+    ]
+  },
+  {
+    "keyWord": "activities",
+    "name": "Event ",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Daily Login ",
+        "description": "Event - Daily Login \r\nYou can get daily bonuses by logging onto the game every day for a month. The more days you login within a month will give you better rewards. Daily login bonuses will also reset every month. "
+      },
+      {
+        "keyWord": "help2",
+        "name": "Gift Code",
+        "description": "Event - Gift Code\r\nYou can input gift codes from various events to get rewards. "
+      },
+      {
+        "keyWord": "help3",
+        "name": "Novice 7 Days ",
+        "description": "Event - Novice 7 Days \r\nNewcomers to the game can claim additional rewards each day for seven days. "
+      },
+      {
+        "keyWord": "help4",
+        "name": "Recharging Chamber ",
+        "description": "Event - Recharging Chamber \r\nRecharging Chamber will be open twice a day. You can recharge your character to regain Energon (Action Points). "
+      },
+      {
+        "keyWord": "help5",
+        "name": "Limit Event ",
+        "description": "Event - Limit Event \r\nThere will be some limited events in the game. Don't forget to take part in them. "
+      },
+      {
+        "keyWord": "help6",
+        "name": "Monthly Card",
+        "description": "Event - Monthly Card\r\nIf you buy a monthly card, you will receive a value pack, and VIP Privelage. You will also get Cybertickets every day for 30 days. "
+      },
+      {
+        "keyWord": "help7",
+        "name": "Cyberboost",
+        "description": "Event - Cyberboost\r\nThe highest ranked Commander of the winning side of Armageddon will become the new Blesser. The Blesser can bless for free one time every day, and claim the Cyberkey of the blessing card. The Blesser can also use space tickets to increase the number of daily blessings and get more Cyberkeys."
+      }
+    ]
+  },
+  {
+    "keyWord": "social",
+    "name": "Social ",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Ally",
+        "description": "Social - Ally \r\nUse the Ally function to make friends with other Commanders. "
+      },
+      {
+        "keyWord": "help2",
+        "name": "Union ",
+        "description": "Social - Union \r\nYou can join up with other players and form a Union. "
+      },
+      {
+        "keyWord": "help3",
+        "name": "Message ",
+        "description": "Social - Message\r\nThere are four kinds of messages that can be delivered into your message box: System, Battle Report, Ally, and Comment.  "
+      },
+      {
+        "keyWord": "help4",
+        "name": "Chat ",
+        "description": "Social - Chat \r\nYou can use the Chat Cannon to send messages to players across the server. Each message costs one Chat Cannon. "
+      },
+      {
+        "keyWord": "help5",
+        "name": "Leaderboard",
+        "description": "Social - Leaderboard \r\nAll users will be ranked by level and by their power. Players who have reached level 10 will be ranked in the level board. Players who have power over 9,000 will be ranked on the power board. "
+      },
+      {
+        "keyWord": "help6",
+        "name": "Invitation ",
+        "description": "Social - Invitation \r\nYou "
+      }
+    ]
+  },
+  {
+    "keyWord": "shop",
+    "name": "Shop ",
+    "children": [
+      {
+        "keyWord": "help1",
+        "name": "Space Bridge ",
+        "description": "Shop - Space Bridge \r\nYou can acquire new character cards by activating the Space Bridge. There are three different character card levels you can choose from. \r\n\r\nFree Activate\r\nYou can activate the Space Bridge for free by waiting to the timer to reach zero. "
+      },
+      {
+        "keyWord": "help2",
+        "name": "Item Shop ",
+        "description": "Shop - Item Shop \r\nYou can use Cyberkeys to buy various items in the Item shop. "
+      },
+      {
+        "keyWord": "help3",
+        "name": "Charge",
+        "description": "Shop - Charge \r\nYou can use Cybertickets to Charge your account and increase VIP level. "
+      },
+      {
+        "keyWord": "help4",
+        "name": "VIP",
+        "description": "Shop - VIP \r\nVIP levels are increased by using the Charge feature. \r\n\r\nVIP Privilege \r\nHigher VIP level grants additional rewards. "
+      },
+      {
+        "keyWord": "help5",
+        "name": "Black Market ",
+        "description": "Shop - Black Market \r\nYou can use Dark Cyberkeys to buy goods from the Black Market. \r\n\r\nYou can get Dark Cyberkeys by converting your normal Cyberkeys. \r\n\r\nThe Black Market is updated regularly, and can be refreshed by the player. "
+      }
+    ]
+  }
+]

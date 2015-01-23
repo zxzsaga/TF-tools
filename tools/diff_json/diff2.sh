@@ -1,1 +1,1 @@
-node diffJSON.js /Users/xuanzhi.zhang/src/TF_tools/diffFiles/cn.js /Users/xuanzhi.zhang/src/TF_tools/diffFiles/tw_2.js /Users/xuanzhi.zhang/src/TF_tools/diffFiles/cn_tw_diff_0827.json
+node diffJSON.js /Users/xuanzhi.zhang/src/transformer/svn_multi/Configs_en/ConfigsProduction/localizations/cn.js /Users/xuanzhi.zhang/Downloads/cn.js /Users/xuanzhi.zhang/cnjs_diff.json
