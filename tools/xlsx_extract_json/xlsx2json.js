@@ -13,8 +13,10 @@ program
 var columnToFile = {
     'Chinese（Simple）': 'cn',
     'Chinese（Traditional）': 'tw',
-    'En': 'en'
+    'En': 'en',
 };
+
+var outputLanguages = [ 'cn', 'en' ];
 
 // complete!
 // 仅用于转换多语言的 xlsx
@@ -23,6 +25,11 @@ function xlsx2json() {
     var destination_folder = program.args[1] || '';
     var workbook = XLSX.readFile(xlsxFilename);
     var sheetNameArr = workbook.SheetNames;
+
+    var zip = new AdmZip();
+    outputLanguages.forEach(function(lang) {
+        zip.addFile(lang + '/', '');
+    });
 
     var dest_folders = fs.readdirSync(destination_folder);
     dest_folders.forEach(function(folder) {
@@ -65,6 +72,9 @@ function xlsx2json() {
         var writeContent;
         var destination;
         for (var lang in thisSheetObj) {
+            if (outputLanguages.indexOf(columnToFile[lang]) < 0) {
+                continue;
+            }
             var dirName = columnToFile[lang];
             if (sheetName === 'ui') {
                 writeContent = 'var cn_localization = ';
@@ -149,13 +159,9 @@ function xlsx2json() {
             // writeContent = writeContent.replace(/\\r\\n/g, '\\n');            
             writeContent = writeContent.replace(/\\\\n/g, '\\n');
             fs.writeFileSync(destination_folder + destination, writeContent);
+            zip.addFile(destination, writeContent);
         }
     });
-
-    var zip = new AdmZip();
-    zip.addLocalFolder(destination_folder + 'cn');
-    zip.addLocalFolder(destination_folder + 'en');
-    zip.addLocalFolder(destination_folder + 'tw');
     zip.writeZip(destination_folder + 'result.zip');
 }
 xlsx2json();
