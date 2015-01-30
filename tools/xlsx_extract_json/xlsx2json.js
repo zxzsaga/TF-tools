@@ -3,7 +3,7 @@ var path = require('path');
 var program = require('commander');
 var XLSX = require('xlsx');
 var rmdir = require('rimraf');
-var AdmZip = require('adm-zip');
+// var AdmZip = require('adm-zip');
 
 program
     .version('0.0.1')
@@ -26,9 +26,12 @@ function xlsx2json() {
     var workbook = XLSX.readFile(xlsxFilename);
     var sheetNameArr = workbook.SheetNames;
 
-    var zip = new AdmZip();
+    // var zip = new AdmZip();
+    var zip = new require('node-zip')();
+
     outputLanguages.forEach(function(lang) {
-        zip.addFile(lang + '/', '');
+        // zip.addFile(lang + '/', '');
+        zip.file(lang + '/', '');
     });
 
     var dest_folders = fs.readdirSync(destination_folder);
@@ -159,9 +162,12 @@ function xlsx2json() {
             // writeContent = writeContent.replace(/\\r\\n/g, '\\n');            
             writeContent = writeContent.replace(/\\\\n/g, '\\n');
             fs.writeFileSync(destination_folder + destination, writeContent);
-            zip.addFile(destination, writeContent);
+            // zip.addFile(destination, writeContent);
+            zip.file(destination, writeContent);
         }
     });
-    zip.writeZip(destination_folder + 'result.zip');
+    // zip.writeZip(destination_folder + 'result.zip');
+    var data = zip.generate({ base64: false, compression: 'DEFLATE' });
+    fs.writeFileSync(destination_folder + 'result.zip', data, 'binary');
 }
 xlsx2json();
